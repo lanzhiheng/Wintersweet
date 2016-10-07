@@ -1,0 +1,29 @@
+#banner {
+  height: 150px;
+  background: #8abd87;
+  width: 100%;
+}
+
+#photo, #person_info {
+  height: 100%;
+  display: inline-block;
+  margin-top: 60px;
+}
+
+#photo {
+  background: #ffffff;
+  width: 15%;
+  margin-left: 9%;
+}
+
+#person_info {
+  margin-right: 9%;
+  position: relative;
+  background: #ffffff;
+  width: 62%;
+  float: right;
+}
+
+.clearfloat {
+  clear: both;
+}
