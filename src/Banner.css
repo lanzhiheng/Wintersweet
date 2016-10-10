@@ -1,27 +1,66 @@
+h1, h2, h3, p {
+  padding: 0px;
+  margin: 0px;
+}
+
 #banner {
+  position: relative;
   height: 150px;
   background: #8abd87;
   width: 100%;
 }
 
+#person {
+  position: absolute;
+  bottom: -60px;
+  left: 20px;
+  right: 20px;
+  height: 150px;
+}
+
+
 #photo, #person_info {
   height: 100%;
   display: inline-block;
-  margin-top: 60px;
+  position: absolute;
 }
 
 #photo {
   background: #ffffff;
-  width: 15%;
-  margin-left: 9%;
+  width: 120px;
+  left: 40px;
 }
 
 #person_info {
-  margin-right: 9%;
-  position: relative;
-  background: #ffffff;
-  width: 62%;
-  float: right;
+  width: 500px;
+  right: 40px;
+}
+
+#person_info > div:first-child {
+  background: #b4d2c1;
+  height: 90px;
+}
+
+#person_info > div:last-child {
+  height: 60px;
+  background: #e6e6e6;
+}
+
+#person_info h1 {
+  margin-left: 20px;
+  line-height: 1.5;
+}
+
+#person_info h3 {
+  color: #fff;
+  line-height: 2;
+  margin-left: 20px;
+  font-weight: 100px;
+}
+
+p.concat {
+  margin-left: 20px;
+  line-height: 1.8;
 }
 
 .clearfloat {

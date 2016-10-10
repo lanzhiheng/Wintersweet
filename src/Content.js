@@ -7,7 +7,12 @@ class Position extends Component {
   }
 
   render() {
-    return (<div id="position" className="info-block"></div>)
+    return (
+      <div id="position" className="info-block">
+      <div>Title</div>
+      <div>Content</div>
+      </div>
+  )
   }
 }
 

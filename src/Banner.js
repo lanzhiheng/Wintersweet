@@ -8,7 +8,8 @@ class Photo extends Component {
 
   render() {
     return (
-      <div id="photo"></div>
+      <div id="photo">
+      </div>
     )
   }
 }
@@ -21,7 +22,31 @@ class PersonInfo extends Component {
 
   render() {
     return (
-      <div id="person_info"></div>
+      <div id="person_info">
+      <div>
+      <h1>蓝智恒</h1>
+      <h3>Web开发工程师</h3>
+      </div>
+      <div>
+      <p className="concat">手机:13751852549</p>
+      <p className="concat">邮箱:hengrj@126.com</p>
+      </div>
+      </div>
+    )
+  }
+}
+
+class Person extends Component {
+  constructor() {
+    super();
+  }
+
+  render() {
+    return (
+      <div id="person">
+      <Photo />
+      <PersonInfo />
+      </div>
     )
   }
 }
@@ -34,8 +59,7 @@ export default class Banner extends Component {
   render() {
     return (
       <div id="banner">
-      <Photo></Photo>
-      <PersonInfo></PersonInfo>
+      <Person />
       <div className="clearfloat"></div>
       </div>
     )
