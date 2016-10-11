@@ -10,6 +10,7 @@ class App extends Component {
       <div id="resume">
       <Banner></Banner>
       <Content></Content>
+      <div id="footer"></div>
       </div>
     );
   }

@@ -28,8 +28,11 @@ class PersonInfo extends Component {
       <h3>Web开发工程师</h3>
       </div>
       <div>
-      <p className="concat">手机:13751852549</p>
-      <p className="concat">邮箱:hengrj@126.com</p>
+      <p className="concat"><i className="fa fa-phone" aria-hidden="true"></i>13751852549</p>
+      <p className="concat"><i className="fa fa-envelope" aria-hidden="true"></i>hengrj@126.com</p>
+      <br />
+      <p className="concat"><i className="fa fa-rss" aria-hidden="true"></i>lanzhiheng.github.io</p>
+      <p className="concat"><i className="fa fa-github" aria-hidden="true"></i>github.com/lanzhiheng</p>
       </div>
       </div>
     )

@@ -1,4 +1,4 @@
-h1, h2, h3, p {
+h1, h2, h3, h4, h5, p, li, ul {
   padding: 0px;
   margin: 0px;
 }
@@ -27,13 +27,13 @@ h1, h2, h3, p {
 
 #photo {
   background: #ffffff;
-  width: 120px;
-  left: 40px;
+  width: 135px;
+  left: 30px;
 }
 
 #person_info {
   width: 500px;
-  right: 40px;
+  right: 30px;
 }
 
 #person_info > div:first-child {
@@ -59,10 +59,13 @@ h1, h2, h3, p {
 }
 
 p.concat {
+  display: inline-block;
   margin-left: 20px;
   line-height: 1.8;
+  width: 220px;
 }
 
-.clearfloat {
-  clear: both;
+p.concat > i {
+  color: #c71e1e;
+  margin-right: 10px;
 }
