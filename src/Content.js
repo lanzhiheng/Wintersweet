@@ -39,64 +39,94 @@ class Skill extends Component {
       </div>
       <div className="right-block">
       <div className="skill-list">
-      <p className="skill-style">Python
+      <div className="skill-style">
+      <p>Python</p>
+      <div className="skill-icon">
       <i className="fa fa-star fa-in"></i>
       <i className="fa fa-star fa-in"></i>
       <i className="fa fa-star fa-in"></i>
       <i className="fa fa-star"></i>
       <i className="fa fa-star"></i>
-      </p>
-      <p className="skill-style">JavaScript
-      <i className="fa fa-star fa-in"></i>
-      <i className="fa fa-star fa-in"></i>
-      <i className="fa fa-star"></i>
-      <i className="fa fa-star"></i>
-      <i className="fa fa-star"></i>
-      </p>
-      <p className="skill-style">Html
-      <i className="fa fa-star fa-in"></i>
-      <i className="fa fa-star fa-in"></i>
-      <i className="fa fa-star fa-in"></i>
-      <i className="fa fa-star"></i>
-      <i className="fa fa-star"></i>
-      </p>
-      <p className="skill-style">Css
-      <i className="fa fa-star fa-in"></i>
-      <i className="fa fa-star fa-in"></i>
-      <i className="fa fa-star fa-in"></i>
-      <i className="fa fa-star"></i>
-      <i className="fa fa-star"></i>
-      </p>
-      <p className="skill-style">Linux
-      <i className="fa fa-star fa-in"></i>
-      <i className="fa fa-star fa-in"></i>
-      <i className="fa fa-star fa-in"></i>
-      <i className="fa fa-star"></i>
-      <i className="fa fa-star"></i>
-      </p>
-      <p className="skill-style">English
-      <i className="fa fa-star fa-in"></i>
-      <i className="fa fa-star fa-in"></i>
-      <i className="fa fa-star"></i>
-      <i className="fa fa-star"></i>
-      <i className="fa fa-star"></i>
-      </p>
-      <p className="skill-style">Writing
-      <i className="fa fa-star fa-in"></i>
-      <i className="fa fa-star fa-in"></i>
-      <i className="fa fa-star fa-in"></i>
-      <i className="fa fa-star"></i>
-      <i className="fa fa-star"></i>
-      </p>
-      <p className="skill-style">Ruby
-      <i className="fa fa-star fa-in"></i>
-      <i className="fa fa-star fa-in"></i>
-      <i className="fa fa-star"></i>
-      <i className="fa fa-star"></i>
-      <i className="fa fa-star"></i>
-      </p>
+      </div>
       </div>
 
+      <div className="skill-style">
+      <p>JavaScript</p>
+      <div className="skill-icon">
+      <i className="fa fa-star fa-in"></i>
+      <i className="fa fa-star fa-in"></i>
+      <i className="fa fa-star"></i>
+      <i className="fa fa-star"></i>
+      <i className="fa fa-star"></i>
+      </div>
+      </div>
+
+      <div className="skill-style">
+      <p>Html</p>
+      <div className="skill-icon">
+      <i className="fa fa-star fa-in"></i>
+      <i className="fa fa-star fa-in"></i>
+      <i className="fa fa-star fa-in"></i>
+      <i className="fa fa-star"></i>
+      <i className="fa fa-star"></i>
+      </div>
+      </div>
+
+      <div className="skill-style">
+      <p>Css</p>
+      <div className="skill-icon">
+      <i className="fa fa-star fa-in"></i>
+      <i className="fa fa-star fa-in"></i>
+      <i className="fa fa-star fa-in"></i>
+      <i className="fa fa-star"></i>
+      <i className="fa fa-star"></i>
+      </div>
+      </div>
+
+      <div className="skill-style">
+      <p>Linux</p>
+      <div className="skill-icon">
+      <i className="fa fa-star fa-in"></i>
+      <i className="fa fa-star fa-in"></i>
+      <i className="fa fa-star fa-in"></i>
+      <i className="fa fa-star"></i>
+      <i className="fa fa-star"></i>
+      </div>
+      </div>
+
+      <div className="skill-style">
+      <p>English</p>
+      <div className="skill-icon">
+      <i className="fa fa-star fa-in"></i>
+      <i className="fa fa-star fa-in"></i>
+      <i className="fa fa-star"></i>
+      <i className="fa fa-star"></i>
+      <i className="fa fa-star"></i>
+      </div>
+      </div>
+
+      <div className="skill-style">
+      <p>Writing</p>
+      <div className="skill-icon">
+      <i className="fa fa-star fa-in"></i>
+      <i className="fa fa-star fa-in"></i>
+      <i className="fa fa-star fa-in"></i>
+      <i className="fa fa-star"></i>
+      <i className="fa fa-star"></i>
+      </div>
+      </div>
+
+      <div className="skill-style">
+      <p>Ruby</p>
+      <div className="skill-icon">
+      <i className="fa fa-star fa-in"></i>
+      <i className="fa fa-star"></i>
+      <i className="fa fa-star"></i>
+      <i className="fa fa-star"></i>
+      <i className="fa fa-star"></i>
+      </div>
+      </div>
+      </div>
       </div>
       <div className="clearfloat" />
       </div>
@@ -116,7 +146,7 @@ class Experience extends Component {
       <h2>项目经验</h2>
       </div>
       <div className="right-block">
-      <h4>擎天柱网络科技有限公司(2015-04~2016-08)</h4>
+      <h4>擎天柱网络科技有限公司(2015-04~2016-09)</h4>
       <p className="exp-list"> 1. 参与实现基于Django+MySQL的内部考核系统的后台大部分业务逻辑，兼职该系统的前端页面开发。</p>
       <p className="exp-list"> 2. 实现基于Tornado+mongodb的游戏后台接口，其中涉及擎天柱君临天下游戏所要用到的游戏数据，充值，封停等方面的功能。</p>
       <h4>业余项目</h4>
