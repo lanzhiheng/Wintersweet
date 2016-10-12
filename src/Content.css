@@ -5,12 +5,8 @@
 
 #content {
   width: 87%;
-  height: 647px;
+  height: 780px;
   margin: 100px auto;
-}
-
-.info-block:first-child {
-  margin-top: 30px;
 }
 
 
@@ -26,7 +22,7 @@
 }
 
 .left-block > h2 {
-  margin-top: 10px;
+  margin-top: 6px;
   color: #8abd87;
 }
 
@@ -39,12 +35,17 @@
 
 .right-block > p {
   font-size: 13px;
-  margin: 7px -4px;
+  margin: 4px -4px;
   line-height: 1.6;
+  letter-spacing: 1px;
+}
+
+.right-block b {
+  font-size: 14px;
 }
 
 .right-block > h4 {
-  margin: 11px -4px;
+  margin: 9px -4px;
   color: #c71e1e;
 }
 
@@ -70,7 +71,7 @@
 
 div.skill-style {
   width: 220px;
-  margin: 5px 31px 5px -4px;
+  margin: 0px 31px 7px -4px;
   display: inline-block;
 }
 
