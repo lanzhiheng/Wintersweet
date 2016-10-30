@@ -1,0 +1,29 @@
+exports[`test MonthlyBook display 1`] = `
+<div
+  className="monthly-book">
+  <h4>
+    10月份
+  </h4>
+  <div
+    className="book-entity">
+    <strong>
+      Name
+    </strong>
+    <em>
+      活法
+    </em>
+    <strong>
+      Author
+    </strong>
+    <em>
+      稻盛和夫
+    </em>
+    <strong>
+      State
+    </strong>
+    <em>
+      Finish
+    </em>
+  </div>
+</div>
+`;
