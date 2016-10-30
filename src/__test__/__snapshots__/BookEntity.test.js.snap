@@ -2,22 +2,16 @@ exports[`test BookEntity display 1`] = `
 <div
   className="book-entity">
   <strong>
-    Name
+    《
+    专业主义
+    》
   </strong>
-  <em>
-    活法
-  </em>
   <strong>
-    Author
+    大前研一
   </strong>
-  <em>
-    稻盛和夫
-  </em>
+    
   <strong>
-    State
+    done
   </strong>
-  <em>
-    Finish
-  </em>
 </div>
 `;

@@ -1,0 +1,92 @@
+[
+  {
+    "month": "8月份书单",
+    "books": [
+      {
+        "name": "专业主义",
+        "author": "大前研一",
+        "state": "done"
+      },
+      {
+        "name": "不在独自旅行",
+        "author": "大低&小低",
+        "state": "done"
+      },
+      {
+        "name": "Atom Flight Manual",
+        "author": "atom官方教程",
+        "state": "done"
+      }
+    ]
+  },
+  {
+    "month": "9月份书单",
+    "books": [
+      {
+        "name": "重来2",
+        "author": "贾森,弗雷德",
+        "state": "done"
+      },
+      {
+        "name": "把时间当作朋友",
+        "author": "李笑来",
+        "state": "done"
+      },
+      {
+        "name": "村上春树●旅",
+        "author": "宫本雅俊",
+        "state": "done"
+      },
+      {
+        "name": "underscorejs",
+        "author": "underscore官网",
+        "state": "done"
+      },
+      {
+        "name": "没有女人的男人们",
+        "author": "村上春树",
+        "state": "done"
+      }
+    ]
+  },
+  {
+    "month": "10月份书单",
+    "books": [
+      {
+        "name": "从你的全世界路过",
+        "author": "张嘉佳",
+        "state": "done"
+      },
+      {
+        "name": "幕客革命",
+        "author": "汤敏",
+        "state": "done"
+      },
+      {
+        "name": "岛上书店",
+        "author": "加布瑞纳拉●泽文",
+        "state": "done"
+      },
+      {
+        "name": "谁也夺不走我们做梦的自由-五月天的摇滚本事",
+        "author": "邹小樱",
+        "state": "done"
+      },
+      {
+        "name": "雨中的3分58秒",
+        "author": "约翰●帕克",
+        "state": "done"
+      },
+      {
+        "name": "秘密",
+        "author": "朗达●拜恩",
+        "state": "done"
+      },
+      {
+        "name": "JavaScript权威指南",
+        "author": "David Flanagan",
+        "state": "doing"
+      }
+    ]
+  }
+]

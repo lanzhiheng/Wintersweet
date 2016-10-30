@@ -1,3 +1,11 @@
 .book-entity strong{
-  color: red;
+  color: black;
+  width: 30%;
+  display: inline-block;
+}
+
+
+.book-entity {
+  margin: 5px;
+  text-align: left;
 }

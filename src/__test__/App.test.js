@@ -1,8 +1,16 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import App from '../App';
+import MonthlyBook from '../MonthlyBook';
+import {shallow, mount} from 'enzyme';
+const books = require('../data/books-test.json');
 
-it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
+describe('<App />', () => {
+  it('render three <MonthlyBook />', function() {
+    const wrapper = shallow(
+      <App books={books} />
+    );
+    var monthlyBook = wrapper.find('.monthly-book');
+    expect(monthlyBook.root.node.props.children.length).toBe(3);
+  });
+
 });
